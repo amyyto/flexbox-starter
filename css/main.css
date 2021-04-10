@@ -96,7 +96,7 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: #647FA1;
   height: 100%;
   width: 100%;
 }
@@ -111,47 +111,50 @@ body {
 
 header,
 footer {
-  background-color: #222;
   height: 80px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 main {
-  background-color: #ccc;
-  height: 251px;
+  height: 250px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 header,
 footer,
 main {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+
 }
 
 .flex-container {
-    align-items: center;
     display: flex;
-    flex-flow: row wrap;
     justify-content: center;
-    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    justify-content:space-between;
 
 }
 
 .flex-items {
-  align-items: center;
-  background-color: #f16059;
   color: #fff;
-  display: flex;
-  font-size: 1.6em;
-  justify-content: center;
   line-height: 1.5em;
-
+  font-size: 1.6em;
   width: 30%;
   height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+footer i {
+    padding: 30px 20px 0 0;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
